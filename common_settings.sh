@@ -4,10 +4,10 @@ set -e # stop on error
 
 ### ADJUST THOSE:
 
-CLICKHOUSE_WORKING_FOLDER=/var/lib/clickhouse
+CLICKHOUSE_WORKING_FOLDER=/bp2/data
 
 # should be same disk as CLICKHOUSE_WORKING_FOLDER! (otherwise we can't use hardlinks)
-CLICKHOUSE_TOOLSET_FOLDER=/var/lib/clickhouse/clickhouse-toolset
+CLICKHOUSE_TOOLSET_FOLDER=/bp2/data/clickhouse-toolset
 
 BACKUP_FOLDER="${CLICKHOUSE_TOOLSET_FOLDER}/backup2020-11-10"
 
